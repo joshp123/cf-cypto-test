@@ -1,0 +1,7 @@
+---
+applications:
+- name: cf-crypto-test
+  buildpack: https://github.com/cloudfoundry/multi-buildpack/
+  memory: 1G
+  disk_quota: 2G
+  instances: 1
